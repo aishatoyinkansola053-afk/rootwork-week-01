@@ -16,3 +16,9 @@ I am currently interested in learning FULLSTACK and CYBERSECURITY.
 
 By the end of the Rootwork I want to be able to code efficiently, and striving to become a professional
 
+
+
+
+
+Week 02:learning Git and GitHub
+
