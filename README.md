@@ -94,3 +94,25 @@ If they meet all five requirements but scored below 85, they are "Eligible".
 Anyone else is "Not eligible".
 
 
+### Part 2 : Pseudocode
+
+```
+START
+SET age, score, hasLaptop, hasInternet, completeApplication 
+
+IF age is at least 18
+   AND score is at least 60
+   AND completed Application is true
+   AND hasLaptop is true
+   AND hasInternet is true
+THEN
+    IF score is 85 or higher 
+    THEN
+       PRINT "Priority candidate"
+    ELSE
+       PRINT "Eligible"
+ELSE
+    Print "Not eligible"
+
+END
+```              
