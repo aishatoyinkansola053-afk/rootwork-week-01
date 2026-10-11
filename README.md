@@ -70,3 +70,27 @@ He run git pull
 
 11\. Something new to me: The vercel used
 
+
+
+
+## Root work Decision Engine
+
+### part 1 : Plain English 
+
+An applicant can only get the Rootwork Tech scholarship if they meet all five requiremennts: 
+
+- They are at least 18 years old.
+- They scored at least 60.
+- They completed their application.
+- They have access to their own laptop.
+- They have internet access.
+
+If even one of these is missing, the applicant is "Not eligible", no matter how good the other details are.
+
+If the applicant meet all five requirements, and also scored 85 or higher, they are a "Priority candidate".
+
+If they meet all five requirements but scored below 85, they are "Eligible".
+
+Anyone else is "Not eligible".
+
+
