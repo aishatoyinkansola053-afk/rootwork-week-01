@@ -102,7 +102,7 @@ SET age, score, hasLaptop, hasInternet, completeApplication
 
 IF age is at least 18
    AND score is at least 60
-   AND completed Application is true
+   AND completedApplication is true
    AND hasLaptop is true
    AND hasInternet is true
 THEN
@@ -112,7 +112,7 @@ THEN
     ELSE
        PRINT "Eligible"
 ELSE
-    Print "Not eligible"
+    PRINT "Not eligible"
 
 END
 ```              
