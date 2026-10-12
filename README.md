@@ -139,4 +139,27 @@ END
 
 **what each variables represents**
 -age:how old the applicant is
--score: the 
+-score: the applicant test's score 
+-hasLaptop: true if the applicant has a laptop
+-hasInternet: true if the applicant has internet access
+-completedApplication: true if the application is complete
+
+**What each condition does**
+-The first if checks that all requirements are mets and the score is 85 or higher. It prints "priority candidate"
+-The else if checks the same requirements with a score of 60 or higher. it prints "Eligible"
+-The else catches everyone else and prints "Not eligible"
+
+**Logical operators used**
+I useed && (AND) to joins the conditions, and >= to compare numbers.
+
+**Why the order matters**
+The priority check comes first. a score of 90 also passes the eligible check, so if eligible came first, priority candidate would print "Eligible" and never get their own result.
+
+**Why a high score can still fail**
+Every requirement must be met. someone with a score of 95 but no laptop is Not eligible.
+
+**Difference between && and ||**
+&& is true only if all conditions are true. || is true if at least one condition is true. I used && because applicants must meet all requirements.
+
+**A mistake i made and how I fixed it**
+I typed git commit message without -m, and git said the message was not a file. I fixed it by typing git commit -m "message".
