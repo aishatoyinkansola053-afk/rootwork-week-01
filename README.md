@@ -115,4 +115,23 @@ ELSE
     PRINT "Not eligible"
 
 END
-```              
+```  
+
+### Part 4: Test cases
+
+1. Younger than 18: age = 17, score = 90, hasLaptop = true, hasInternet = true, completedApplication = true. Not eligible.
+
+2. Score below 60: age = 21, score = 55, hasLaptop = true, hasInternet = true, completedApplication = true. Not eligible
+
+3. No internet: age = 21, score = 78, hasLaptop = true, hasInternet = false, completedApplication = true. Not eligible
+
+4. Incomplete application: age = 21, score = 78, hasLaptop = true, hasInternet = true, completedApplication = false. Not eligible
+
+5. No laptop: age = 21, score = 78, hasLaptop = false, hasInternet = true, completedApplication = true. Not eligible.
+
+6. Exactly 18: age = 18, score = 78, hasLaptop = true, hasInternet = true, completedApplication = true.Eligible
+
+7. Exactly 60: age = 21, score = 60, hasLaptop = true, hasInternet = true, completedApplication = true.Eligible
+
+8. Priority candidate: age = 21, score = 90, hasLaptop = true, hasInternet = true, completetedApplication. Priority candidate
+
