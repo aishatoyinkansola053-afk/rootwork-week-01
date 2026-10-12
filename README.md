@@ -135,3 +135,8 @@ END
 
 8. Priority candidate: age = 21, score = 90, hasLaptop = true, hasInternet = true, completetedApplication = true. Expected result : Priority candidate, Actual result : priority candidate
 
+### Part 5
+
+**what each variables represents**
+-age:how old the applicant is
+-score: the 
