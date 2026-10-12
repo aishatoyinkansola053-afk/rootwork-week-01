@@ -127,11 +127,11 @@ END
 
 4. Incomplete application: age = 21, score = 78, hasLaptop = true, hasInternet = true, completedApplication = false. Not eligible
 
-5. No laptop: age = 21, score = 78, hasLaptop = false, hasInternet = true, completedApplication = true. Not eligible.
+5. No laptop: age = 21, score = 78, hasLaptop = false, hasInternet = true, completedApplication = true.Expected result : Not eligible, Actual result : Not eligible.
 
-6. Exactly 18: age = 18, score = 78, hasLaptop = true, hasInternet = true, completedApplication = true.Eligible
+6. Exactly 18: age = 18, score = 78, hasLaptop = true, hasInternet = true, completedApplication = true.Expected result : Eligible, Actual result : Eligible
 
-7. Exactly 60: age = 21, score = 60, hasLaptop = true, hasInternet = true, completedApplication = true.Eligible
+7. Exactly 60: age = 21, score = 60, hasLaptop = true, hasInternet = true, completedApplication = true. Expected result :Eligible, Actual result : Eligible
 
-8. Priority candidate: age = 21, score = 90, hasLaptop = true, hasInternet = true, completetedApplication. Priority candidate
+8. Priority candidate: age = 21, score = 90, hasLaptop = true, hasInternet = true, completetedApplication = true. Expected result : Priority candidate, Actual result : priority candidate
 
