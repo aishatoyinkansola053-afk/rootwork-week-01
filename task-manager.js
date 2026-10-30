@@ -98,5 +98,17 @@ showStatistics();
 findhighNOTcompleted();
 countByCategory();
 
+//part 6
+function addTasks(title, category, priority) {
+   tasks.push({
+      title: title,
+      category: category,
+      completed: false,
+      priority: priority,
+   });
+}
+addTasks("Learn video editing", "online", "high");
+console.log("Total after adding:", tasks.length);
+displayTasks();
 
 
