@@ -95,7 +95,16 @@ This is a console-based task manager written in JavaScript. it stores task in an
 the hardest part was choosing two categories from my dataset and printing how many tasks belong to each one. I also spent a lot of time working out how to make my loop print only the tasks that are high priority and not completed. 
 
 ## one thing I would improve
-I would like to improve my ability to plan a solution before I start coding, so that my code works the first time. I also want to improve my knowledge of function of loops.
+I would like to improve my ability to plan a solution before I start coding, so that my code works the first time. I also want to improve my knowledge of function and loops.
 
 ## AI disclosure
+**What I used it for**
+I used AI to understand the concepts like functions, arrow function and to read error messages.  
+
+**One suggestion I accepted**
+It suggested I add the function on top of my codes intead of starting afresh.
+
+**One thing I had to understand, change, reject, or verify myself**
+When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but i was not quite satisfied with it is response. so I had to use another dimension.
+
 
