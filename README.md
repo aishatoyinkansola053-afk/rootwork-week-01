@@ -102,9 +102,9 @@ I would like to improve my ability to plan a solution before I start coding, so 
 I used AI to understand the concepts like functions, arrow function and to read error messages.  
 
 **One suggestion I accepted**
-It suggested I add the function on top of my codes intead of starting afresh.
+It suggested I add the function on top of my codes instead of starting again.
 
 **One thing I had to understand, change, reject, or verify myself**
-When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but i was not quite satisfied with it is response. so I had to use another dimension.
+When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but I was not quite satisfied with it is response. so I had to use another dimension.
 
 
