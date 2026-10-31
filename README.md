@@ -105,6 +105,6 @@ I used AI to understand the concepts like functions, arrow function and to read 
 It suggested I add the function on top of my codes instead of starting again.
 
 **One thing I had to understand, change, reject, or verify myself**
-When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but I was not quite satisfied with it is response. so I had to use another dimension.
+When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but I was not quite satisfied with it  response. so I looked for another explanation and tried it on my own.
 
 
