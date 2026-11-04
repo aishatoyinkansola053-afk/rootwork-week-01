@@ -108,3 +108,25 @@ It suggested I add the function on top of my codes instead of starting again.
 When I wanted to use the filter and arrow function, I do not quite understand the concept. I consulted AI and it explained but I was not quite satisfied with it  response. so I looked for another explanation and tried it on my own.
 
 
+# HTML Profile Page
+
+## What I built
+I built a profile page using only HTML
+
+## The main section of the website
+-Intro with my photo and a short bio
+-Skills
+-Projects (links to my GitHub work)
+-Get in touch (contact form)
+
+## Semantic HTML choices
+1. `<main>` : holds the page's primary content, so screen readers can skip straight to it.
+2. `<footer>` : hold contacts info, seperate from the main content.
+3. `<label for>` : + matching `id`: clicking it label focuses its input, which makes the form accessible.s
+
+## Something confusing or interesting
+Nothing confuses me through out the code and there was no AI disclosure.
+
+
+
+
