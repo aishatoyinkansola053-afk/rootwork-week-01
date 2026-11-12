@@ -74,3 +74,23 @@ He run git pull
 
 A responsive developer profile built with HTML and CSS only.
 
+## Week 6 
+
+1. **When would you choose Flexbox instead of Grid?**
+   I would choose flexbox when I need to arrange items mainly in one direction. either in a column or a row.
+
+2. **What does `box-sizing: border-box` change?**
+   It makes the element width and height include the padding and border
+
+3. **What is the difference between margin and padding?**
+   margin is the space outside an element while padding is the space inside an element, between it's content and it's border.
+
+4. **What does a media query do?**
+  A media query allow CSS to apply different styles depending on the screen size or device. It is commonly used to make website responsive on phones, tablets and computers.
+
+5. **Why is `max-width: 100%` useful for images?**
+   It prevents an image from becoming wider than it's parent container.
+
+6. **One CSS behaviour that confused me, and how I understand it now:**
+7. At first, I was confused about how flexbox alignment works, especially justify-content and align-items. I now understand that justify-content controls alignment along the main axis, while align-items controls alignment along the cross axis.
+
