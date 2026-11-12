@@ -91,6 +91,30 @@ A responsive developer profile built with HTML and CSS only.
 5. **Why is `max-width: 100%` useful for images?**
    It prevents an image from becoming wider than it's parent container.
 
-6. **One CSS behaviour that confused me, and how I understand it now:**
-7. At first, I was confused about how flexbox alignment works, especially justify-content and align-items. I now understand that justify-content controls alignment along the main axis, while align-items controls alignment along the cross axis.
+**One CSS behaviour that confused me, and how I understand it now:**
+6. At first, I was confused about how flexbox alignment works, especially justify-content and align-items. I now understand that justify-content controls alignment along the main axis, while align-items controls alignment along the cross axis.
+
+
+## Design decisions
+
+1. **CSS variables in `:root`:** colours and spacing are stored once, so I can change the look by editing one line.
+2. **Centered content width:** `max-width: 60rem` with `margin: 0 auto` stops text stretching across large screens.
+3. **Reusable `.card` class:** projects and education share one card style for consistency.
+
+## Flexbox vs Grid
+
+- **Flexbox** for the nav: links sit in one row and wrap on small screens.
+- **Grid** for projects: cards need rows and columns, and `auto-fit` adjusts the columns to the screen width.
+
+## Responsive behaviour
+
+On mobile everything is one column. From 768px up, a media query puts the photo beside the welcome text, adds padding, and limits the form width.
+
+## Hardest CSS problem
+-** After watching the video, I was still struggling to get the grid part how to arrange the grid box. I read more about it and I was able to overcome it.
+
+## AI disclosure
+
+I used Claude to explain CSS concepts and suggest starter code. I wrote the Learning Check and hardest-problem sections myself.
+   
 
