@@ -70,3 +70,7 @@ He run git pull
 
 11\. Something new to me: The vercel used
 
+#Developer Profile - Week 6
+
+A responsive developer profile built with HTML and CSS only.
+
