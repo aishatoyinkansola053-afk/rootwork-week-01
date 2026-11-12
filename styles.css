@@ -114,4 +114,26 @@ nav a:focus-visible {
     border: 4px solid var(--accent);
     margin: var(--space-md) 0;
 }
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-md);
+}
 
+.card h3 {
+    color: var(--accent-dark);
+}
+
+.card a {
+    font-weight: 600;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: var(--space-md);
+}
+
+.card:hover {
+    border-color: var(--accent);
+}
