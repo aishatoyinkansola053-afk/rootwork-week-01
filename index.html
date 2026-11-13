@@ -3,66 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My profile page</title>
+    <title>Developer Profile | Abdulazeez Aishat Oyinkansola</title>
 </head>
 <body>
     <header>
         <h1>Developer Profile</h1>
-        <p> Code &bull; Learn &bull; Innovate &bull;</p>
+        <p>Code &bull; Learn &bull; Innovate</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <u>
-        <li><a href="#home"> Home </a> </li>
-        <li><a href="#about"> About </a> </li>
-        <li><a href="#skils"> Skills </a> </li>
-        <li><a href="#projects"> Projects </a> </li>
-        <li><a href="#contacts"> Contacts </a> </li>
-    </u>
-            <h2> Welcome!</h2>
-            <img src="https://pbs.twimg.com/profile_images/2102818273389629441/MHuTThOF_400x400.jpg" alt="My twitter image">
-        <p> Hello, I'm Abdulazeez Aishat Oyinkansola. 
-            welcome to my developer profile website. Here you will find information about me, 
-            my skills and the projects I have worked on.   
-        </p>
-        <main>
-            <section>
-                <h2> About Me</h2>
-        <p> I am a students, a learner and a future software engineer. 
-            I enjoy exploring technologies and turning ideas into real solutions.
-        </p>
-        <h2>Skills</h2>
-        <ul>
-            <li> HTML </li>
-            <li> CSS </li>
-            <li> JavaScript </li>
-            <li> Graphic design</li>
-        </ul>
-        <h2> My Projects </h2>
-        <p> A simple portfolio site built with JavaScript</p>
-        <ul>
-            <li> Loops and Arrays <a href="loops-array-practice.js"> View Project </a> </li>
-            <li> Array practice <a href="task-manager.js"> View Project </a> </li>
-        </ul>
-        <h2> Get in Touch</h2>
-        <ul>
-           <li>
-            <label for="username">Name:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your name">
-           </li>
-           <li>
-             <label for="useremail"> Email:</label>
-        <input type="text" id="useremail" name="useremail" placeholder="Enter your email">
-           </li>
-        </ul> 
-         <button>Submit</button>
-        </main>
-        <footer>
-            <p>&copy; 2026 Abulazeez Aishat Oyinkansola. All right reserved.</p>
 
-        </footer>
-        
+    <main>
+        <section id="home">
+            <h2>Welcome!</h2>
+            <img src="https://pbs.twimg.com/profile_images/2102818273389629441/MHuTThOF_400x400.jpg"
+                 alt="Profile photo of Abdulazeez Aishat Oyinkansola">
+            <p>
+                Hello, I'm Abdulazeez Aishat Oyinkansola. Welcome to my developer
+                profile website. Here you will find information about me, my skills,
+                and the projects I have worked on.
+            </p>
+        </section>
 
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a student, a learner, and a future software engineer.
+                I enjoy exploring technologies and turning ideas into real solutions.
+            </p>
+        </section>
 
-  
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Graphic design</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>A simple portfolio site built with JavaScript.</p>
+            <ul>
+                <li>
+                    Loops and Arrays:
+                    <a href="loops-array-practice.js">View project</a>
+                </li>
+                <li>
+                    Task Manager:
+                    <a href="task-manager.js">View project</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username"
+                           placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail"
+                           placeholder="Enter your email" required>
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Abdulazeez Aishat Oyinkansola. All rights reserved.</p>
+    </footer>
 </body>
 </html>
