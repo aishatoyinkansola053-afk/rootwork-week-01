@@ -70,7 +70,7 @@ He run git pull
 
 11\. Something new to me: The vercel used
 
-#Developer Profile - Week 6
+#Developer Profile - Week 6 Learning check
 
 A responsive developer profile built with HTML and CSS only.
 
@@ -115,6 +115,6 @@ On mobile everything is one column. From 768px up, a media query puts the photo 
 
 ## AI disclosure
 
-I used Claude to explain CSS concepts and suggest starter code. I wrote the Learning Check and hardest-problem sections myself.
+I used Claude to explain CSS concepts and suggest starter code for grid part. I wrote the Learning Check and hardest-problem sections myself.
    
 
