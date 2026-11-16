@@ -70,11 +70,9 @@ He run git pull
 
 11\. Something new to me: The vercel used
 
-#Developer Profile - Week 6 Learning check
+# Developer Profile - Week 6 Learning check
 
 A responsive developer profile built with HTML and CSS only.
-
-## Week 6 
 
 1. **When would you choose Flexbox instead of Grid?**
    I would choose flexbox when I need to arrange items mainly in one direction. either in a column or a row.
@@ -115,6 +113,6 @@ On mobile everything is one column. From 768px up, a media query puts the photo 
 
 ## AI disclosure
 
-I used Claude to explain CSS concepts and suggest starter code for grid part. I wrote the Learning Check and hardest-problem sections myself.
+I used Claude to explain CSS concepts and suggest starter code for grid part which I accepted. It included what I need to know about grid, when I need to use wash selectors and how they work. I wrote the Learning Check and hardest-problem sections myself.
    
 
