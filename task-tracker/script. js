@@ -1,0 +1,45 @@
+const form = document.getElementById("task-form");
+const input = document.getElementById("task-input");
+const message = document.getElementById("message");
+const taskList = document.getElementById("task-list");
+
+let tasks = [];
+let nextId = 1;
+
+function addTask(text) {
+  const task = {
+    id: nextId,
+    text: text,
+    completed: false
+  };
+  nextId++;
+  tasks.push(task);
+}
+
+function render() {
+  taskList.textContent = "";
+
+  tasks.forEach(function (task) {
+    const li = document.createElement("li");
+    li.textContent = task.text;
+    taskList.appendChild(li);
+  });
+}
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const text = input.value.trim();
+
+  if (text === "") {
+    message.textContent = "Please type a task before adding.";
+    input.focus();
+    return;
+  }
+
+  message.textContent = "";
+  addTask(text);
+  input.value = "";
+  input.focus();
+  render();
+});
